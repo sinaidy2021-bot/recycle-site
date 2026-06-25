@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>回收站·黑金科技V3</title>
+
+<style>
+body{
+  margin:0;
+  font-family:Arial;
+  color:#fff;
+  background:linear-gradient(135deg,#000,#0a0a0a,#111);
+  overflow-x:hidden;
+}
+
+/* 背景光效 */
+.glow{
+  position:fixed;
+  width:400px;
+  height:400px;
+  background:radial-gradient(circle,rgba(255,215,0,0.15),transparent 60%);
+  top:-100px;
+  right:-100px;
+  filter:blur(20px);
+}
+
+/* 顶部 */
+header{
+  padding:40px 20px;
+  text-align:center;
+}
+
+h1{
+  color:#d4af37;
+  font-size:32px;
+  letter-spacing:2px;
+}
+
+p{
+  color:#aaa;
+}
+
+/* 按钮 */
+.btn{
+  display:inline-block;
+  padding:12px 20px;
+  margin:10px;
+  border-radius:12px;
+  text-decoration:none;
+  font-weight:bold;
+  transition:0.3s;
+}
+
+.gold{
+  background:linear-gradient(90deg,#d4af37,#ffcc66);
+  color:#000;
+}
+
+.green{
+  background:#18c27c;
+  color:#000;
+}
+
+.btn:hover{
+  transform:scale(1.05);
+}
+
+/* 卡片 */
+.card{
+  margin:20px;
+  padding:20px;
+  border:1px solid rgba(212,175,55,0.3);
+  border-radius:15px;
+  background:rgba(255,255,255,0.03);
+  backdrop-filter:blur(10px);
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="glow"></div>
+
+<header>
+  <h1>⚡ 回收站 · 黑金科技 V3</h1>
+  <p>高价回收 · 手机电脑 · 数码产品 · 当面交易</p>
+
+  <a class="btn gold" href="#">获取报价</a>
+  <a class="btn green" href="#">微信咨询</a>
+</header>
+
+<div class="card">
+  <h3>🔥 核心业务</h3>
+  <p>手机 / 平板 / 电脑 / 数码设备 / 旧机换新</p>
+</div>
+
+<div class="card">
+  <h3>⚡ 优势</h3>
+  <p>专业检测 · 高价回收 · 即时到账 · 安全交易</p>
+</div>
+
+</body>
+</html>
